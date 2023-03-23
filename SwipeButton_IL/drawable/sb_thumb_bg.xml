@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/thumb_background">
+        <shape
+            android:shape="oval">
+
+            <solid
+                android:color="#3C8DCB">
+            </solid>
+
+        <size android:height="50dp" android:width="50dp"/>
+
+        </shape>
+
+    </item>
+    <item
+        android:gravity="center"
+        android:id="@+id/thumb_image"
+        android:drawable="@drawable/group" />
+</layer-list>
